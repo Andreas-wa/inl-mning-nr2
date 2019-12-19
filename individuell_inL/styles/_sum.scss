@@ -1,0 +1,39 @@
+.summa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+
+.InkomstSumma{
+    @include padMargin;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+}
+
+.UtgifterSumma{
+    @include padMargin;
+    position: absolute;
+    top: 65%;
+    right: 15%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .summa{
+        display: flex;
+        flex-direction: column; 
+        
+        .InkomstSumma{
+            left: auto;
+            @include inUtPos;
+        }
+        
+        .UtgifterSumma{
+            right: auto;
+            @include inUtPos;
+        }
+    }
+}

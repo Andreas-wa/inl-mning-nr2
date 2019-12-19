@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: whitesmoke;
+    color: rgb(29, 29, 29);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+    padding: 10px;
+}
+
+.inkomst{
+    padding: 20px;
+}
+
+.kostnad {
+    padding: 20px;
+}
+
+.inputs{
+    padding: 30px;
+}
+
+#totalSumma{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.summa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.InkomstSumma{
+    margin: 5px;
+    padding: 15px;
+}
+
+.utgifterSumma{
+    margin: 5px;
+    padding: 15px;
+}

@@ -1,0 +1,19 @@
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+header {
+    @include flexCenter(column);
+    background-color: yellow;
+    height: 100vh;
+    font-size: 30px;
+    button{
+        background-color: $primaryBtn;
+        &:hover {
+            background-color: grey;
+        }
+    }
+}

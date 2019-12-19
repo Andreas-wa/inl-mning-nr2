@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* body {
+  background: #CCDDD3;
+  color: #1d1d1d;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inkomst {
+  padding-top: 14%;
+}
+
+.kostnad {
+  padding: 10px 0;
+}
+
+.inputs {
+  position: relative;
+  top: 50%;
+  padding: 30px;
+}
+
+.inputs select {
+  border-radius: 4px;
+  border: 0.5px solid grey;
+}
+
+.inputs button {
+  background-color: #e5e4cc;
+  padding: 4px;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+}
+
+.inputs #inputs___text {
+  padding: 6px;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+}
+
+.inputs #inputs___nummer {
+  padding: 6px;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+}
+
+.inputs #totalSumma {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inputs #inputs___text {
+    margin: 10px;
+    padding: 10px;
+  }
+  .inputs #inputs___nummer {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+.summa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.summa .InkomstSumma {
+  margin: 5px;
+  padding: 0 25px;
+  position: absolute;
+  top: 65%;
+  left: 15%;
+}
+
+.summa .UtgifterSumma {
+  margin: 5px;
+  padding: 0 25px;
+  position: absolute;
+  top: 65%;
+  right: 15%;
+}
+
+@media screen and (max-width: 580px) {
+  .summa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .summa .InkomstSumma {
+    left: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    top: auto;
+  }
+  .summa .UtgifterSumma {
+    right: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    top: auto;
+  }
+}
+/*# sourceMappingURL=index.css.map */

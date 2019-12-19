@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    position: relative;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 40px;
+}
+
+.modal li {
+    list-style-type: none;
+}
+
+.kassa{
+    position: relative;
+    left: 260px;
+    top: 150px
+}
+
+.card {
+    margin: 10px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nike {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.nike img{
+    width: 400px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.nike button {
+    width: 100px;
+    height: 20px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px grey;
+    color: none;
+    cursor: pointer;
+}
+
+.antal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.antal input{
+    width: 40px;
+}
+
+.decrease{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width: 20px;
+    height: 25px;
+    border: 1px solid black;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.increase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width: 20px;
+    height: 25px;
+    border: 1px solid black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.adidas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.adidas img{
+    width: 400px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.adidas button {
+    width: 100px;
+    height: 20px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px grey;
+    color: none;
+    cursor: pointer;
+}

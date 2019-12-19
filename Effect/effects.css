@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, hotpink , grey);
+    /* background-image: linear-gradient(to bottom right, hotpink, grey); */
+    overflow-x: hidden;
+}
+
+.front{
+    font-size: 50px;
+    width: 80vw;
+    height: 60vh;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(80, 80, 80);
+    background-color: hotpink;
+    /* border: 0.5px solid rgb(66, 66, 66); */
+}
+
+.fadeIn {
+    font-size: 60px;
+    animation: fade ease-in 2s;
+}
+
+@keyframes fade{
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+}
+
+.kub {
+    background-color: grey;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 300px;
+    left: 70%;
+    z-index: 1;
+    /* border: 0.5px solid rgb(66, 66, 66); */
+}
+
+.effectIntro {
+    position: relative;
+    top: 250px;
+    padding: 10%;
+    margin: 20px;
+    height: 30vh;
+    width: 40vw;
+    color: rgb(80, 80, 80);
+    background: hotpink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.effectTxt {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.8s all ease-in;
+}
+
+.effectAppear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.effectIntro___rubrik {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.effectIntro___text {
+    font-size: 15px;
+}
+
+.img1 {
+    position: relative;
+    left: 34%;
+    width: 800px;
+    height: 500px;
+}
+
+.img2 {
+    position: relative;
+    top: 200px;
+    left: 10%;
+    width: 650px;
+    height: 450px;
+}
+
+.effect{
+    position: relative;
+    top: 80px;
+    left: 40%;
+    padding: 10%;
+    margin: 20px;
+    height: 34vh;
+    width: 46vw;
+    color: rgb(80, 80, 80);
+    background: hotpink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 0.5px solid rgb(66, 66, 66); */
+}
+
+.footer {
+    position: relative;
+    top: 400px;
+    background: whitesmoke;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+
+}

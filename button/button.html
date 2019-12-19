@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <h1>Knappar</h1>
+
+    <div class="modal">
+            <h3>Kundvagn</h3>
+            <ul id="modalText"></ul>
+            <button type="button" onclick="removeNikeFunc()">Remove</button>
+            <!-- <button type="button" onclick="removeAdidasFunc()">Remove</button> -->
+            <p class="totalt"></p>
+        <!-- <button class="kassa">Kassa</button> -->
+        </div>
+    
+    <div class="nike">
+                <img src="Bilder/photo-of-nike-shoes-1598505.jpg" alt="nike shoes">
+                <h2>Nike</h2>
+                <p>Pris: 1800kr</p>
+                <button class="btnN" onclick="addNikeFunc()">Köp</button>
+            </div>
+
+            <ul>
+                <li class="antal">
+                    <button class="decrease">-</button>
+                    <input type="number" min="0" class="nummer">
+                    <button class="increase">+</button>
+                </li>
+            </ul>
+            
+
+        <div class="adidas">
+            <img src="Bilder/pair-of-white-running-shoes-1670766.jpg" alt="adidas shoes">
+            <h2>Adidas</h2>
+            <p>Pris: 1000kr</p>
+            <button class="btnA" onclick="addAdidasFunc()">Köp</button>
+        </div>
+    </section>
+
+    <script src="button.js"></script>
+</body>
+</html>

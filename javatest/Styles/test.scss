@@ -1,0 +1,10 @@
+@import "./variables";
+@import "./header";
+
+.kontakt  {
+    @include flexCenter(row);
+    @extend header;
+    background-color: grey;
+}
+
+

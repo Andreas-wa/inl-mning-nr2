@@ -1,0 +1,41 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    align-items: flex-end;
+    font-size: 25px;
+    padding: 25px;
+    width: 70vw;
+    height: 40vh;
+    background: rgb(116, 72, 72);
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 1px;
+    height: 55px;
+    border-right: 2px solid whitesmoke;
+    animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

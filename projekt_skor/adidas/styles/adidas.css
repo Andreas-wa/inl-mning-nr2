@@ -45,9 +45,25 @@ body {
   letter-spacing: -10px;
 }
 
-@media screen and (max-width: 800px) {
-  .adidasFront .adidasFront___rubrik {
-    font-size: 10px;
+@media screen and (max-width: 550px) {
+  .adidasFront .adidasFront___img {
+    display: none;
+  }
+  .adidasFront .adidasFront___imgSmall {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    -o-object-position: 0 40%;
+       object-position: 0 40%;
+    -webkit-clip-path: inset(0% 0% 0% 20%);
+            clip-path: inset(0% 0% 0% 20%);
+  }
+  .adidasFront .adidasFront___front .adidasFront___rubrik {
+    position: relative;
+    top: 180px;
+    left: 0px;
+    letter-spacing: -2px;
+    font-size: 22vw;
   }
 }
 
@@ -151,7 +167,7 @@ body {
 
 .adidasCard .adidasCardPW {
   position: relative;
-  top: 350px;
+  top: 300px;
 }
 
 .adidasCard .adidasCardPW .adidasCardPW___card {
@@ -214,6 +230,57 @@ body {
   left: 35%;
 }
 
+@media screen and (max-width: 550px) {
+  .adidasCardBlock {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 28vw;
+    height: 27vh;
+    font-weight: bold;
+  }
+  .adidasCardBlock #blockText {
+    position: relative;
+    left: 88px;
+    top: 8px;
+    font-size: 8vw;
+    letter-spacing: 5px;
+  }
+  .adidasCard {
+    position: relative;
+    top: 100px;
+  }
+  .adidasCard .adidasCardStan {
+    width: 100%;
+  }
+  .adidasCard .adidasCardStan .adidasCardStan___card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___info {
+    font-size: 2vw;
+  }
+  .adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___img {
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+  }
+  .adidasCard .adidasCardPW {
+    width: 100%;
+  }
+  .adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___info {
+    padding: 40px;
+  }
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,7 +308,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
+  padding: 8px;
 }
 
 .footer .footer___adress {
@@ -252,7 +319,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
+  padding: 8px;
 }
 
 .footer .footer___nummer {
@@ -263,7 +330,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
+  padding: 8px;
 }
 
 .footer .footer___social {
@@ -274,7 +341,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
+  padding: 8px;
 }
 
 @media screen and (max-width: 900px) {

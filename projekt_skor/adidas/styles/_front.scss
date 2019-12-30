@@ -29,16 +29,36 @@
         right: 90px;
         font-size: 16vw;
         color: rgb(43,43,43);
+        // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         letter-spacing: -10px;
         }
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 550px){
     .adidasFront{
 
-        .adidasFront___rubrik{
-            font-size: 10px;
+        .adidasFront___img{
+            display: none;
         }
+
+        .adidasFront___imgSmall{
+            position: relative;
+            width: 100%;
+            height: 55vh;
+            object-position: 0 40%;
+            clip-path: inset(0% 0% 0% 20%);
+        }
+
+        .adidasFront___front{
+        .adidasFront___rubrik{
+            position: relative;
+            top: 180px;
+            left: 0px;
+            // color: white;
+            letter-spacing: -2px;
+            font-size: 22vw;
+        }
+    }
     }
 }

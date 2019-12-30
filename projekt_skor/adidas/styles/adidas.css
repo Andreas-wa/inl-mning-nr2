@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #ede734;
+}
+
+.adidasFront .adidasFront___img {
+  width: 100%;
+  height: 45vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-clip-path: inset(0% 0 15% 10%);
+          clip-path: inset(0% 0 15% 10%);
+}
+
+.adidasFront .adidasFront___imgSmall {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 500px;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+.adidasFront .adidasFront___front {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+}
+
+.adidasFront .adidasFront___front .adidasFront___rubrik {
+  font-size: 11vw;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .adidasFront .adidasFront___rubrik {
+    font-size: 10px;
+  }
+}
+
+.adidasCardBlock {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 600px;
+  height: 550px;
+  background: #2b2b2b;
+  z-index: -1;
+}
+
+.adidasCard {
+  position: relative;
+  top: 700px;
+  height: 180vh;
+  width: 100%;
+  -webkit-clip-path: inset(0% 10% 15% 10%);
+          clip-path: inset(0% 10% 15% 10%);
+}
+
+.adidasCard .adidasCardStan {
+  position: relative;
+  top: 150px;
+}
+
+.adidasCard .adidasCardStan .adidasCardStan___card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 400px;
+}
+
+.adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___info {
+  width: 40%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___info .adidasCardStan___rubrik {
+  color: white;
+  padding: 10px;
+  font-size: 3vw;
+}
+
+.adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___info .adidasCardStan___text {
+  font-size: 1.2vw;
+  color: white;
+  padding: 10px;
+}
+
+.adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___img {
+  width: 40%;
+  height: 80%;
+  padding: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+  opacity: 1;
+}
+
+.adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___backBlock {
+  width: 140px;
+  height: 220px;
+  background: #ff3636;
+  position: absolute;
+  top: 145px;
+  left: 52%;
+}
+
+.adidasCard .adidasCardPW {
+  position: relative;
+  top: 350px;
+}
+
+.adidasCard .adidasCardPW .adidasCardPW___card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 400px;
+}
+
+.adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___info {
+  width: 40%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___info .adidasCardPW___rubrik {
+  color: white;
+  padding: 10px;
+  font-size: 3vw;
+}
+
+.adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___info .adidasCardPW___text {
+  font-size: 1.2vw;
+  color: white;
+  padding: 10px;
+}
+
+.adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___img {
+  width: 40%;
+  height: 80%;
+  padding: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+  opacity: 1;
+}
+
+.adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___backBlock {
+  width: 140px;
+  height: 220px;
+  background: #2b2b2b;
+  position: absolute;
+  top: 145px;
+  left: 35%;
+}
+/*# sourceMappingURL=adidas.css.map */

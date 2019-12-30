@@ -1,0 +1,413 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #1B1B1E;
+  overflow-x: hidden;
+}
+
+.front h1 {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 9vw;
+  color: #FAA916;
+  z-index: 1;
+}
+
+.front img {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 65%;
+     object-position: 0 65%;
+  opacity: 0.8;
+  -webkit-clip-path: inset(5% 7% 4% 7%);
+          clip-path: inset(5% 7% 4% 7%);
+}
+
+.skorCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.skorCards .adidasCard img {
+  position: relative;
+  top: 40px;
+  width: 33vw;
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.3;
+}
+
+.skorCards .adidasCard h2 {
+  position: relative;
+  left: 25%;
+  top: -25rem;
+  font-size: 5vw;
+  color: #fff;
+  opacity: 0;
+  z-index: 1;
+}
+
+.skorCards .adidasCard:hover img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.skorCards .adidasCard:hover h2 {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.skorCards .nikeCard img {
+  position: relative;
+  top: 40px;
+  width: 33vw;
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.3;
+}
+
+.skorCards .nikeCard h2 {
+  position: relative;
+  top: -25rem;
+  left: 35%;
+  font-size: 5vw;
+  color: #FAA916;
+  opacity: 0;
+  z-index: 1;
+}
+
+.skorCards .nikeCard:hover img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.skorCards .nikeCard:hover h2 {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.skorCards .newbalanceCard img {
+  position: relative;
+  top: 40px;
+  width: 33vw;
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.3;
+}
+
+.skorCards .newbalanceCard h2 {
+  position: relative;
+  top: -25rem;
+  left: 3%;
+  font-size: 5vw;
+  color: #E21836;
+  opacity: 0;
+  z-index: 1;
+}
+
+.skorCards .newbalanceCard:hover img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.skorCards .newbalanceCard:hover h2 {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.vaderSkor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 140vh;
+}
+
+.vaderSkor .vaderSkor___rubrik {
+  text-align: center;
+  font-size: 7vw;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: #FAA916;
+}
+
+.vaderSkor .sommar img {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 80%;
+     object-position: 0 80%;
+  opacity: 0.3;
+  -webkit-clip-path: inset(5% 7% 4% 0%);
+          clip-path: inset(5% 7% 4% 0%);
+}
+
+.vaderSkor .sommar h2 {
+  position: relative;
+  top: -15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 6vw;
+  color: #FAA916;
+  opacity: 0;
+  z-index: 1;
+}
+
+.vaderSkor .sommar:hover img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.vaderSkor .sommar:hover h2 {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.vaderSkor .vinter {
+  position: relative;
+  top: -60px;
+}
+
+.vaderSkor .vinter img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 90%;
+     object-position: 0 90%;
+  opacity: 0.3;
+  -webkit-clip-path: inset(5% 0% 4% 7%);
+          clip-path: inset(5% 0% 4% 7%);
+}
+
+.vaderSkor .vinter h2 {
+  position: relative;
+  top: -15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 6vw;
+  color: #6D676E;
+  opacity: 0;
+  z-index: 1;
+}
+
+.vaderSkor .vinter:hover img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.vaderSkor .vinter:hover h2 {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .skorCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skorCards .adidasCard h2 {
+    font-size: 9vw;
+    position: relative;
+    top: 0;
+    left: 3%;
+    opacity: 1;
+  }
+  .skorCards .adidasCard img {
+    width: 100%;
+    height: 60vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0 80%;
+       object-position: 0 80%;
+    -webkit-clip-path: inset(0 0 5% 5%);
+            clip-path: inset(0 0 5% 5%);
+  }
+  .skorCards .nikeCard h2 {
+    font-size: 9vw;
+    position: relative;
+    top: 0;
+    left: 3%;
+    opacity: 1;
+  }
+  .skorCards .nikeCard img {
+    width: 100%;
+    height: 60vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 100%;
+       object-position: 50% 100%;
+    -webkit-clip-path: inset(0 0 5% 5%);
+            clip-path: inset(0 0 5% 5%);
+  }
+  .skorCards .newbalanceCard h2 {
+    font-size: 9vw;
+    position: relative;
+    top: 0;
+    left: 3%;
+    opacity: 1;
+  }
+  .skorCards .newbalanceCard img {
+    width: 100%;
+    height: 60vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0 80%;
+       object-position: 0 80%;
+    -webkit-clip-path: inset(0 0 5% 5%);
+            clip-path: inset(0 0 5% 5%);
+  }
+  .vaderSkor .vaderSkor___rubrik {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 10vw;
+  }
+  .vaderSkor .sommar h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 6%;
+    font-size: 15vw;
+    color: #FAA916;
+    opacity: 1;
+    z-index: 1;
+  }
+  .vaderSkor .vinter img {
+    position: relative;
+    top: 20px;
+  }
+  .vaderSkor .vinter h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 15vw;
+    color: #6D676E;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+#line {
+  border-bottom: 1px solid #FAA916;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 180px;
+  padding: 12px;
+  font-size: 1vw;
+  color: #FAA916;
+}
+
+.footer .footer___oppetider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.footer .footer___adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.footer .footer___nummer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.footer .footer___social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    font-size: 3vw;
+  }
+}
+/*# sourceMappingURL=index.css.map */

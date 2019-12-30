@@ -1,0 +1,124 @@
+// 
+.adidasCardBlock{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    width: 600px;
+    height: 550px;
+    background: rgb(43, 43, 43);
+    z-index: -1;
+}
+
+.adidasCard{
+    position: relative;
+    top: 700px;
+    height: 180vh;
+    width: 100%;
+    // background: rgba(43,43, 43, 0.3);
+    clip-path: inset(0% 10% 15% 10%);
+
+
+    // adidas stan smith card
+.adidasCardStan{
+    position: relative;
+    top: 150px;
+
+    .adidasCardStan___card{
+        // background: rgb(41, 41, 41);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        left: 10%;
+        width: 80%;
+        height: 400px;
+
+        .adidasCardStan___info{
+            width: 40%;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+
+            .adidasCardStan___rubrik{
+                color: white;
+                padding: 10px;
+                font-size: 3vw;
+            }
+        
+            .adidasCardStan___text{
+                font-size: 1.2vw;
+                color: white;
+                padding: 10px;
+            }
+        }
+        .adidasCardStan___img{
+            width: 40%;
+            height: 80%;
+            padding: 30px;
+            object-fit: cover;
+            z-index: 2;
+            opacity: 1;
+        }
+        .adidasCardStan___backBlock{
+            width: 140px;
+            height: 220px;
+            background: rgb(255, 54, 54);
+            position: absolute;
+            top: 145px;
+            left: 52%;
+        }
+    }
+}
+
+// adidas pharrell williams card
+.adidasCardPW{
+    position: relative;
+    top: 350px;
+
+    .adidasCardPW___card{
+        // background: rgb(41, 41, 41);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        left: 10%;
+        width: 80%;
+        height: 400px;
+
+        .adidasCardPW___info{
+            width: 40%;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+
+            .adidasCardPW___rubrik{
+                color: white;
+                padding: 10px;
+                font-size: 3vw;
+            }
+        
+            .adidasCardPW___text{
+                font-size: 1.2vw;
+                color: white;
+                padding: 10px;
+            }
+        }
+        .adidasCardPW___img{
+            width: 40%;
+            height: 80%;
+            padding: 30px;
+            object-fit: cover;
+            z-index: 2;
+            opacity: 1;
+        }
+        .adidasCardPW___backBlock{
+            width: 140px;
+            height: 220px;
+            background:rgb(43, 43, 43);
+            position: absolute;
+            top: 145px;
+            left: 35%;
+        }
+    }
+    }
+}

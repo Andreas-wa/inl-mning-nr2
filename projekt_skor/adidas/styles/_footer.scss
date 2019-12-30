@@ -1,0 +1,49 @@
+// #line{
+//     position: relative;
+//     top: 650px;
+//     border-bottom: 1px solid black;
+// }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 180px;
+    position: relative;
+    top: 700px;
+    padding: 20px;
+    font-size: 1vw;
+    color: black;
+    background-color: whitesmoke;
+    
+    .footer___oppetider{
+        display: flex;
+        flex-direction: column;
+        // font-size: 1vw;
+        padding: 10px;
+    }
+    .footer___adress{
+        display: flex;
+        flex-direction: column;
+        // font-size: 1vw;
+        padding: 10px;
+    }
+    .footer___nummer{
+        display: flex;
+        flex-direction: column;
+        // font-size: 1vw;
+        padding: 10px;
+    }
+    .footer___social{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .footer{
+        font-size: 3vw;
+    }
+
+}

@@ -7,7 +7,20 @@
     height: 550px;
     background: rgb(43, 43, 43);
     z-index: -1;
+
+    #blockText{
+        font-size: 8vw;
+        color: white;
+        transform: rotate(90deg);
+        position: absolute;
+        letter-spacing: -5px;
+        left: 20%;
+        top: 10px;
+        transform-origin: left top 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
+
 
 .adidasCard{
     position: relative;
@@ -42,11 +55,11 @@
             .adidasCardStan___rubrik{
                 color: white;
                 padding: 10px;
-                font-size: 3vw;
+                font-size: 3.3vw;
             }
         
             .adidasCardStan___text{
-                font-size: 1.2vw;
+                font-size: 1.3vw;
                 color: white;
                 padding: 10px;
             }
@@ -94,11 +107,11 @@
             .adidasCardPW___rubrik{
                 color: white;
                 padding: 10px;
-                font-size: 3vw;
+                font-size: 3.3vw;
             }
         
             .adidasCardPW___text{
-                font-size: 1.2vw;
+                font-size: 1.3vw;
                 color: white;
                 padding: 10px;
             }
@@ -114,7 +127,7 @@
         .adidasCardPW___backBlock{
             width: 140px;
             height: 220px;
-            background:rgb(43, 43, 43);
+            background: rgb(109, 159, 252);
             position: absolute;
             top: 145px;
             left: 35%;

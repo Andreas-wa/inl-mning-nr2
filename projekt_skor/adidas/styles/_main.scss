@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    background: $colorFade;
-    height: 320vh;
+    background: $color;
 }

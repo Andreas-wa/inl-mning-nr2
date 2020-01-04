@@ -1,8 +1,10 @@
 .adidasFront{
+    height: 142vh;
 
     .adidasFront___img{
         width: 100%;
         height: 45vh;
+        max-height: 50vh;
         object-fit: cover;
         // clip-path: polygon(0% 0%, 0% 100%, 15% 100%, 14% 54%, 75% 54%, 75% 73%, 14% 73%, 15% 100%, 100% 100%, 100% 0%);
         clip-path: inset(0% 0 15% 10%);
@@ -12,12 +14,33 @@
         position: absolute;
         top: 38%;
         right: 0;        
-        width: 500px;
+        width: 50vw;
         height: 80%;
         object-fit: cover;
         z-index: -1;
     }
 
+    .adidasCardBlock{
+        position: absolute;
+        top: 80%;
+        left: 5%;
+        width: 35%;
+        height: 60%;
+        background: rgb(43, 43, 43);
+        z-index: -2;
+    
+        #blockText{
+            font-size: 8vw;
+            color: white;
+            transform: rotate(90deg);
+            position: absolute;
+            letter-spacing: -5px;
+            left: 25%;
+            top: 10px;
+            transform-origin: left top 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
     .adidasFront___front{
         position: absolute;
         top: 25%;
@@ -34,46 +57,88 @@
         }
     }
 }
-@media screen and (max-width: 800px){
-    .adidasFront___imgSmall{
-        display: none;
+@media screen and (max-width: 750px){
+    // .adidasFront___img{
+        
+    // }
+    .adidasFront{
+        height: 90vh;
+        // .adidasFront___img{
+            .adidasFront___img{
+                display: none;
+            }
+        // }
+        
+        .adidasFront___imgSmall{
+            position: absolute;
+            top: 0;
+            right: 5%;
+            width: 70vw;
+            height: 70vh;
+            object-position: 0% 40%;
+            z-index: 1;
+        }
+        .adidasFront___front{
+            .adidasFront___rubrik{
+                display: none;
+                font-size: 20vw;
+                letter-spacing: -5px;
+            }
+        }
+        .adidasCardBlock{
+            position: absolute;
+            top: 30%;
+            left: 5%;
+            width: 45%;
+            height: 45%;
+            background: #2b2b2b;
+            letter-spacing: 10px;
+            z-index: -2;
+            
+            #blockText{
+            font-size: 8vw;
+            color: white;
+            transform: rotate(90deg);
+            position: absolute;
+            letter-spacing: 0px;
+            left: 25%;
+            top: 10px;
+            transform-origin: left top 0;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+        }
     }
 }
 
 @media screen and (max-width: 600px){
     .adidasFront{
 
-        .adidasFront___img{
-            display: none;
-        }
-
         .adidasFront___imgSmall{
             display: block;
-            position: relative;
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 55vh;
+            height: 65vh;
             object-position: 0 40%;
             clip-path: inset(0% 0% 0% 20%);
         }
 
         .adidasFront___front{
-        .adidasFront___rubrik{
-            // position: absolute;
-            // top: 300%;
-            // left: 10%;
-            // // color: white;
-            // letter-spacing: -2px;
-            // font-size: 24vw;
+            // display: block;
+            width: 100%;
+
     // lösning om inget annat funkar
 
-            position: relative;
-    top: 500px;
-    right: 10%;
-    transform: rotate(270deg);
-    letter-spacing: -2px;
-    font-size: 48vw;
-    color: white;
-        }
+    // position: relative;
+    // top: 500px;
+    // right: 10%;
+    // transform: rotate(270deg);
+    // letter-spacing: -2px;
+    // font-size: 48vw;
+    // color: white;
+    //     }
     }
+
     }
 }

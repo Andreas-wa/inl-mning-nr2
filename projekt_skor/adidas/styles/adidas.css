@@ -10,9 +10,14 @@ body {
   background: #ede734;
 }
 
+.adidasFront {
+  height: 142vh;
+}
+
 .adidasFront .adidasFront___img {
   width: 100%;
   height: 45vh;
+  max-height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-clip-path: inset(0% 0 15% 10%);
@@ -23,11 +28,35 @@ body {
   position: absolute;
   top: 38%;
   right: 0;
-  width: 500px;
+  width: 50vw;
   height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: -1;
+}
+
+.adidasFront .adidasCardBlock {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 35%;
+  height: 60%;
+  background: #2b2b2b;
+  z-index: -2;
+}
+
+.adidasFront .adidasCardBlock #blockText {
+  font-size: 8vw;
+  color: white;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+  letter-spacing: -5px;
+  left: 25%;
+  top: 10px;
+  -webkit-transform-origin: left top 0;
+          transform-origin: left top 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .adidasFront .adidasFront___front {
@@ -45,65 +74,73 @@ body {
   letter-spacing: -10px;
 }
 
-@media screen and (max-width: 800px) {
-  .adidasFront___imgSmall {
-    display: none;
+@media screen and (max-width: 750px) {
+  .adidasFront {
+    height: 90vh;
   }
-}
-
-@media screen and (max-width: 600px) {
   .adidasFront .adidasFront___img {
     display: none;
   }
   .adidasFront .adidasFront___imgSmall {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 70vw;
+    height: 70vh;
+    -o-object-position: 0% 40%;
+       object-position: 0% 40%;
+    z-index: 1;
+  }
+  .adidasFront .adidasFront___front .adidasFront___rubrik {
+    display: none;
+    font-size: 20vw;
+    letter-spacing: -5px;
+  }
+  .adidasFront .adidasCardBlock {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 45%;
+    height: 45%;
+    background: #2b2b2b;
+    letter-spacing: 10px;
+    z-index: -2;
+  }
+  .adidasFront .adidasCardBlock #blockText {
+    font-size: 8vw;
+    color: white;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    position: absolute;
+    letter-spacing: 0px;
+    left: 25%;
+    top: 10px;
+    -webkit-transform-origin: left top 0;
+            transform-origin: left top 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .adidasFront .adidasFront___imgSmall {
     display: block;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 55vh;
+    height: 65vh;
     -o-object-position: 0 40%;
        object-position: 0 40%;
     -webkit-clip-path: inset(0% 0% 0% 20%);
             clip-path: inset(0% 0% 0% 20%);
   }
-  .adidasFront .adidasFront___front .adidasFront___rubrik {
-    position: relative;
-    top: 500px;
-    right: 10%;
-    -webkit-transform: rotate(270deg);
-            transform: rotate(270deg);
-    letter-spacing: -2px;
-    font-size: 48vw;
-    color: white;
+  .adidasFront .adidasFront___front {
+    width: 100%;
   }
-}
-
-.adidasCardBlock {
-  position: absolute;
-  top: 80%;
-  left: 5%;
-  width: 45%;
-  height: 60%;
-  background: #2b2b2b;
-  z-index: -1;
-}
-
-.adidasCardBlock #blockText {
-  font-size: 8vw;
-  color: white;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  position: absolute;
-  letter-spacing: -5px;
-  left: 20%;
-  top: 10px;
-  -webkit-transform-origin: left top 0;
-          transform-origin: left top 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .adidasCard {
   position: relative;
-  top: 700px;
   height: 180vh;
   width: 100%;
   -webkit-clip-path: inset(0% 10% 15% 10%);
@@ -112,7 +149,7 @@ body {
 
 .adidasCard .adidasCardStan {
   position: relative;
-  top: 150px;
+  top: 100px;
 }
 
 .adidasCard .adidasCardStan .adidasCardStan___card {
@@ -171,13 +208,13 @@ body {
   height: 220px;
   background: #ff3636;
   position: absolute;
-  top: 105px;
+  top: 50px;
   left: 50%;
 }
 
 .adidasCard .adidasCardPW {
   position: relative;
-  top: 300px;
+  top: 100px;
 }
 
 .adidasCard .adidasCardPW .adidasCardPW___card {
@@ -192,6 +229,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
+  top: 50px;
   left: 10%;
   width: 80%;
   height: 400px;
@@ -236,11 +274,11 @@ body {
   height: 220px;
   background: #6d9ffc;
   position: absolute;
-  top: 104px;
+  top: 50px;
   right: 50%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 570px) {
   .adidasCardBlock {
     position: absolute;
     top: 10px;
@@ -248,6 +286,7 @@ body {
     width: 28vw;
     height: 30vh;
     font-weight: bold;
+    z-index: -2;
   }
   .adidasCardBlock #blockText {
     position: absolute;
@@ -258,17 +297,29 @@ body {
     letter-spacing: 5px;
   }
   .adidasCard .adidasCardStan {
-    height: 50vh;
+    position: relative;
+    left: 0;
+    height: 60vh;
     width: 100%;
+  }
+  .adidasCard .adidasCardStan .adidasCardStan___card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    left: 5%;
+  }
+  .adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___info {
+    padding: 0;
+    z-index: -2;
   }
   .adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___info .adidasCardStan___rubrik {
     font-size: 6vw;
-    position: relative;
-    top: 110%;
-    right: 1%;
-    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 8%;
     height: 100px;
-    background: #ff3636;
+    background: #6d9ffc;
     z-index: 10;
   }
   .adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___info .adidasCardStan___text {
@@ -276,37 +327,49 @@ body {
     font-size: 3vw;
   }
   .adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___img {
-    position: relative;
-    left: 10%;
+    position: absolute;
+    top: 14%;
+    right: 0;
     width: 100%;
     height: 60vh;
     padding: 0;
     -o-object-position: 30% 0%;
-       object-position: 30% 0%;
+    object-position: 30% 0%;
   }
   .adidasCard .adidasCardStan .adidasCardStan___card .adidasCardStan___backBlock {
     display: none;
   }
   .adidasCard .adidasCardPW {
+    position: relative;
+    left: 0;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
+  }
+  .adidasCard .adidasCardPW .adidasCardPW___card {
+    left: 0;
   }
   .adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___img {
     position: relative;
-    left: 10%;
-    width: 100%;
+    top: 15%;
+    right: 0;
+    width: 113%;
     height: 60vh;
     padding: 0;
+    -o-object-position: 30% 70%;
+       object-position: 30% 70%;
   }
   .adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___backBlock {
     display: none;
   }
+  .adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___info {
+    padding: 0;
+    z-index: -2;
+  }
   .adidasCard .adidasCardPW .adidasCardPW___card .adidasCardPW___info .adidasCardPW___rubrik {
     font-size: 6vw;
-    position: relative;
-    top: 108%;
-    right: 10%;
-    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 14%;
     height: 100px;
     background: #6d9ffc;
     z-index: 10;
@@ -328,7 +391,6 @@ body {
       justify-content: space-around;
   height: 200px;
   position: relative;
-  top: 700px;
   padding: 20px;
   font-size: 1vw;
   color: black;

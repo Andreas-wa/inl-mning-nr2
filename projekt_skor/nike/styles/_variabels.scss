@@ -1,0 +1,9 @@
+$primaryWhite: whitesmoke;
+$secondWhite: white;
+$cardColor: rgb(255, 122, 122);
+$blackColor:rgb(24, 24, 24);
+
+@mixin fonts {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 4rem;
+}

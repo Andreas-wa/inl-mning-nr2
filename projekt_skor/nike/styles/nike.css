@@ -91,7 +91,7 @@ body {
   top: 20px;
   width: 5rem;
   height: 2.2rem;
-  background: black;
+  background: #181818;
   color: white;
   border-radius: 15px;
   border: 0px solid white;
@@ -154,9 +154,9 @@ body {
   width: 4rem;
   height: 2rem;
   border-radius: 15px;
-  background: black;
-  border: 0.5px solid black;
-  color: white;
+  background: #181818;
+  border: 0.5px solid #181818;
+  color: whitesmoke;
 }
 
 .nikeCard .nikeCard___sec .nikeCard___secImg {

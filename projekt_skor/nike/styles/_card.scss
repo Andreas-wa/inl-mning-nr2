@@ -21,18 +21,17 @@
         left: 5%;
     
         .nikeCard___firRubrik{
-            font-family: 'Public Sans', sans-serif;
-            font-size: 4rem;
-            color: rgb(255, 122, 122);
+            @include fonts;
+            color: $cardColor;
         }
 
         .nikeCard___firButton{
             width: 4rem;
             height: 2rem;
             border-radius: 15px;
-            background: black;
-            border: 0.5px solid black;
-            color: white;
+            background: $blackColor;
+            border: 0.5px solid $blackColor;
+            color: $primaryWhite;
         }
     }
 }
@@ -51,9 +50,8 @@
                 position: absolute;
                 top: 5%;
                 right: 5%;
-                font-family: 'Public Sans', sans-serif;
-                font-size: 4rem;
-                color: rgb(255, 122, 122);
+                @include fonts;
+                color: $cardColor;
             }
         }
         // andra "carder" slutar

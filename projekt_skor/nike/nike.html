@@ -5,9 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nike</title>
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans:900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/nike.css">
 </head>
 <body>
-    
+    <div class="nikeFront">
+        <!-- jag har valt att göra första sidans srcset att 
+            gå efter storlek och inte pixeldensiteten, för att se
+        skillnaden mellan de två olika sätten(vilken som är "bäst") -->
+            <img class="nikeFront___img" 
+                src="./bilderN/nikeShoe2Xsmall.jpg" 
+                alt="bilder" 
+                sizes="(min-width: 38em) 50vw, 100vw"
+                srcset="./bilderN/nikeShoe2Xlarge.jpg 3024w,
+                ./bilderN/nikeShoe2Large.jpg 1920w,
+                ./bilderN/nikeShoe2Medium.jpg 1280w,
+                ./bilderN/nikeShoe2small.jpg 640w,
+                ./bilderN/nikeShoe2Xsmall.jpg 480w">
+
+            <img class="nikeFront___imgLogo" 
+                src="./bilderN/nike_logo.png" 
+                alt="">
+
+            <div class="nikeFront___info">
+                <h1 class="nikeFront___rubrik">Nike.</h1>
+                <h2 class="nikeFront___subRubrik">Just do it.</h2>
+            </div>
+
+            <div class="nikeFront___card">
+                <p class="nikeFront___text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga animi corporis non cupiditate excepturi aspernatur sed rerum, inventore, amet harum adipisci perferendis iusto blanditiis veniam accusantium expedita facilis consequatur! Soluta!Dolore itaque illo deserunt! Porro recusandae vitae dolore est dolores veniam ad repellendus aliquam omnis, maiores nostrum nisi. Accusamus obcaecati quisquam saepe? Voluptatem odio illo autem, maxime numquam commodi debitis!
+                </p>
+                <button class="nikeFront___button">Köp?</button>
+            </div>
+        </div>
+
+            <div class="nikeCard">
+                <!-- jag har valt att gör denna srcset att 
+                    gå efter pixel densiteten tillskillnad från 
+                    första sidan -->
+                <div class="nikeCard___fir">
+                    <img class="nikeCard___firImg" 
+                        src="./bilderN/nikeCardXSmall.jpg" 
+                        alt="" 
+                        srcset="./bilderN/nikeCardSmall.jpg 1x,
+                                ./bilderN/nikeCardMedium.jpg 2x,
+                                ./bilderN/nikeCardLarge.jpg 3x">
+                    <div class="nikeCard___firInfo">
+                        <h2 class="nikeCard___firRubrik">Nike.</h2>
+                        <button class="nikeCard___firButton">Köp?</button> 
+                    </div>
+                </div>
+                    <div class="nikeCard___sec">
+                        <img class="nikeCard___secImg" 
+                            src="./bilderN/nikeCard2XSmall.jpg" 
+                            alt="" 
+                            srcset="./bilderN/nikeCard2Small.jpg 1x,
+                                    ./bilderN/nikeCard2Medium.jpg 2x,
+                                    ./bilderN/nikeCard2Large.jpg 3x">
+                        <!-- <div class="nikeCard___secInfo"> -->
+                            <h2 class="nikeCard___secRubrik">Air Max. <br> DIA.</h2>
+                        <!-- </div> -->
+                    </div>
+            </div>
 </body>
 </html>

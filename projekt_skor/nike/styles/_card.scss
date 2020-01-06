@@ -1,0 +1,86 @@
+.nikeCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding: 20px;
+
+    // första "cardet" start
+    .nikeCard___fir{
+    .nikeCard___firImg{
+        width: 45vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+    .nikeCard___firInfo{
+        position: relative;
+        width: 50%;
+        bottom: 18%;
+        left: 5%;
+    
+        .nikeCard___firRubrik{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 4rem;
+            color: rgb(255, 122, 122);
+        }
+
+        .nikeCard___firButton{
+            width: 4rem;
+            height: 2rem;
+            border-radius: 15px;
+            background: black;
+            border: 0.5px solid black;
+            color: white;
+        }
+    }
+}
+// första "cardet" slutar
+
+// andra "cardet" börjar
+
+        .nikeCard___sec{
+            .nikeCard___secImg{
+                width: 45vw;
+                height: 80vh;
+                object-fit: cover;
+            }
+        
+            .nikeCard___secRubrik{
+                position: absolute;
+                top: 5%;
+                right: 5%;
+                font-family: 'Public Sans', sans-serif;
+                font-size: 4rem;
+                color: rgb(255, 122, 122);
+            }
+        }
+        // andra "carder" slutar
+}
+
+@media screen and (max-width:900px){
+    .nikeCard{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0;
+        .nikeCard___fir{
+        .nikeCard___firImg{
+            padding: 15px;
+            width: 100%;
+        }
+        .nikeCard___firInfo{
+            position: absolute;
+            bottom: 5%;
+            left: 8%;
+        }
+    }
+    .nikeCard___sec{
+        .nikeCard___secImg{
+            padding: 15px;
+            width: 100%;
+        }
+    }
+    }
+}
+

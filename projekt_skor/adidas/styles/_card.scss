@@ -30,14 +30,14 @@
             flex-direction: column;
 
             .adidasCardStan___rubrik{
-                color: rgb(43, 43, 43);
+                color: $colorBlack;
                 padding: 10px;
                 font-size: 3.3vw;
             }
         
             .adidasCardStan___text{
                 font-size: 1.3vw;
-                color: rgb(43, 43, 43);
+                color: $colorBlack;
                 padding: 10px;
             }
         }
@@ -52,7 +52,7 @@
         .adidasCardStan___backBlock{
             width: 140px;
             height: 220px;
-            background: rgb(255, 54, 54);
+            background: $colorRed;
             position: absolute;
             top: 50px;
             left: 50%;
@@ -83,14 +83,14 @@
             flex-direction: column;
 
             .adidasCardPW___rubrik{
-                color: rgb(43, 43, 43);
+                color: $colorBlack;
                 padding: 10px;
                 font-size: 3.3vw;
             }
         
             .adidasCardPW___text{
                 font-size: 1.3vw;
-                color: rgb(43, 43, 43);
+                color: $colorBlack;
                 padding: 10px;
             }
         }
@@ -105,7 +105,7 @@
         .adidasCardPW___backBlock{
             width: 140px;
             height: 220px;
-            background: rgb(109, 159, 252);
+            background: $colorBlue;
             position: absolute;
             top: 50px;
             right: 50%;
@@ -161,7 +161,7 @@
                             top: 10px;
                             left: 8%;
                             height: 100px;
-                            background: #6d9ffc;
+                            background: $blueColor;
                             z-index: 10;
                         }
                         .adidasCardStan___text{
@@ -216,7 +216,7 @@
                             top: 10px;
                             left: 14%;
                             height: 100px;
-                            background: #6d9ffc;
+                            background: $blueColor;
                             z-index: 10;
                         }
                         .adidasCardPW___text{
